@@ -1,10 +1,10 @@
 === Pfadiheime ===
 Contributors: diegosteiner
-Tags: calendar, iframe, embed, blocks
+Tags: calendar, iframe, embed, blocks, pfadiheime
 Requires at least: 6.1
-Tested up to: 6.5
+Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
@@ -67,3 +67,6 @@ run `npm install && npm run build` after checkout.
 
 = 1.0.0 =
 * Initial release: Pfadiheime plugin with the "Calendar" block and shortcode.
+
+= 1.0.1 =
+* Tested with WordPress 7.0

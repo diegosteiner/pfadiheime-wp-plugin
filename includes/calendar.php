@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-const PFADIHEIME_CALENDAR_DEFAULT_TEMPLATE = 'https://pfadiheime.ch/{locale}/cottages/{id}/occupancies/calendar?months={months}';
+const PFADIHEIME_CALENDAR_DEFAULT_TEMPLATE = 'https://pfadiheime.ch/{locale}/cottages/{id}/occupancies/calendar?months={months}&utm=wp';
 const PFADIHEIME_CALENDAR_LOCALES = array( 'de', 'fr', 'it' );
 
 /**

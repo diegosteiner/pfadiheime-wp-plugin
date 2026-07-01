@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(docker compose *)",
-      "Bash(curl -s -o /dev/null -w 'localhost:8080 -> HTTP %{http_code}\\\\n' http://localhost:8080/)",
-      "Bash(break)"
-    ]
-  }
-}
