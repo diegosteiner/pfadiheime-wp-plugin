@@ -1,0 +1,11 @@
+import { registerBlockType } from '@wordpress/blocks';
+
+import metadata from './block.json';
+import Edit from './edit';
+import './style.scss';
+
+registerBlockType( metadata.name, {
+	edit: Edit,
+	// Dynamic block: markup is rendered server-side in render.php.
+	save: () => null,
+} );

@@ -1,0 +1,6 @@
+.wp-block-pfadiheime-calendar {
+	iframe {
+		// Prevent the iframe from swallowing clicks meant for block selection.
+		pointer-events: none;
+	}
+}

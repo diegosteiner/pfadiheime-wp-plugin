@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "pfadiheime/calendar",
+	"version": "1.0.0",
+	"title": "Calendar",
+	"category": "embed",
+	"icon": "calendar",
+	"description": "Embed a calendar as an iframe by its ID.",
+	"keywords": [ "calendar", "iframe", "calendar", "pfadiheim" ],
+	"textdomain": "pfadiheime",
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ]
+	},
+	"attributes": {
+		"id": {
+			"type": "string",
+			"default": ""
+		},
+		"locale": {
+			"type": "string",
+			"default": "de"
+		},
+		"width": {
+			"type": "string",
+			"default": "100%"
+		},
+		"height": {
+			"type": "string",
+			"default": "600"
+		},
+		"months": {
+			"type": "integer",
+			"default": 12
+		}
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}
