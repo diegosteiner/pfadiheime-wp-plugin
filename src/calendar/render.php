@@ -6,6 +6,9 @@
  *
  * @var array $attributes Block attributes.
  */
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 
 $pfadiheime_html = pfadiheime_calendar_iframe( $attributes );
 
