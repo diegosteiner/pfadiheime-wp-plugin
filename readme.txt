@@ -1,12 +1,13 @@
 === Pfadiheime ===
-Contributors: diegosteiner
+Contributors: pfadiheime
 Tags: calendar, iframe, embed, blocks, pfadiheime
 Requires at least: 6.1
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: MIT
 License URI: https://opensource.org/licenses/MIT
+Source Code Repository: https://github.com/diegosteiner/pfadiheime-wp-plugin/
 
 Gutenberg blocks for the Pfadiheim-Verzeichnis. Ships with a calendar embed block; more blocks can be added.
 
@@ -21,6 +22,10 @@ Embeds a calendar as an iframe. Each calendar is identified by an ID that is
 inserted into a URL template. Place it with the "Calendar" block or the
 `[pfadiheime_calendar]` shortcode, and set the locale, month count and iframe
 size in the block sidebar (or as shortcode attributes).
+
+== Source Code ==
+
+The source code for this plugin is publicly available at: https://github.com/diegosteiner/pfadiheime-wp-plugin/
 
 == Installation ==
 
@@ -55,6 +60,11 @@ Placeholders replaced when building the iframe URL:
 * `width` — CSS width, e.g. `100%` or `800`. Default `100%`.
 * `height` — CSS height, e.g. `600` or `75vh`. Default `600`.
 
+== Build == 
+
+The plugin uses the official WordPress scripts to build the minified javascript. Run `npm build` to 
+build what needs to be built into the _dist/_ folder. 
+
 == Adding a new block ==
 
 Create a folder under `src/<block-name>/` with its own `block.json` (and a
@@ -73,3 +83,6 @@ run `npm install && npm run build` after checkout.
 
 = 1.0.2 =
 * Fix automated review issues
+
+= 1.0.3 =
+* Add public repo url

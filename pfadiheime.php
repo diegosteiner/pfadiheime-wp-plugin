@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Pfadiheime
  * Description:       Blocks for the Pfadiheim-Verzeichnis (calendar embed and more).
- * Version:           1.0.2
+ * Version:           1.0.3
  * Requires PHP:      7.4
  * Author:            Diego Steiner
  * License:           MIT
@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // No direct access.
 }
 
-define( 'PFADIHEIME_VERSION', '1.0.2' );
+define( 'PFADIHEIME_VERSION', '1.0.3' );
 define( 'PFADIHEIME_FILE', __FILE__ );
 define( 'PFADIHEIME_DIR', plugin_dir_path( __FILE__ ) );
 
